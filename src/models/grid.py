@@ -16,3 +16,6 @@ class Grid(object):
 
     def can_move_west(self, x):
         return x > 0
+
+    def __repr__(self):
+        return f"Grid({self.x}, {self.y})"
